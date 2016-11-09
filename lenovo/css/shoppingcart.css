@@ -1,0 +1,59 @@
+/* -----  ======  top  ======  ----- */
+.top_right{background:#000}
+
+/* -----  ======  logo  ======  ----- */
+#logo{display:table; padding:0;}
+.logo-left{float:left}
+.logo-right{float:right}
+
+/* -----  ======  count  ======  ----- */
+#count{height:24px;border:1px solid #d9d8d6;padding-top:11px;background:#f8f8f8;margin-bottom:10px;}
+.all{height:14px;line-height:14px;font-size:14px;margin:0 153px 0 21px;float:left;font-size:14px;}
+.all span{display:inline-block;height:14px;width:14px;margin-right:5px;background:url(../images/shoppingcart/buycart.png) -167px -4px;cursor:pointer;}
+.cou2{height:14px;line-height:14px;font-size:14px;float:left;font-size:14px;}
+.cou3{height:14px;line-height:14px;font-size:14px;margin:0 129px 0 284px;float:left;font-size:14px;}
+.cou4{height:14px;line-height:14px;font-size:14px;float:left;font-size:14px;}
+.cou5{height:14px;line-height:14px;font-size:14px;margin:0 123px;float:left;font-size:14px;}
+.cou6{height:14px;line-height:14px;font-size:14px;margin-right:105px;float:left;font-size:14px;}
+.cou7{height:14px;line-height:14px;font-size:14px;float:left;font-size:14px;}
+
+
+/* -----  ======  buy  ======  ----- */
+.sc-ul{display:table;border-top:1px solid #e5e5e5;}
+.sc-ul li{border:1px solid #e5e5e5;border-top:0;height:115px;width:1200px;}
+.sc-ul li .bg{height:14px;width:14px;display:inline-block;background:url(../images/shoppingcart/buycart.png) -167px -4px;cursor:pointer;margin-top:49px;margin-left:21px;float:left;}
+.sc-ul li .tu{height:115px;width:115px;margin:0 15px 0 22px;float:left;}
+.sc-ul li .tu img{height:100%;}
+.sc-ul li a{width:224px;height:40px;overflow:hidden;float:left;font-size:14px;line-height:20px;margin-top: 35px;}
+.sc-ul li a:hover{color:#e2231a;}
+.sc-ul li .p{height:35px;width:145px;line-height:20px;font-size:13px;float:left;margin:38px 57px 0 70px;word-break:break-all;}
+.sc-ul li .pic{font-size:13px;line-height:115px;float:left;margin-right:80px;}
+.sc-ul li .num{height:18px;width:92px;border: 1px solid #d2d2d2;float:left;margin-top:47px;}
+.sc-ul li .num .jian{height:18px;width:18px;background:#eee;text-align:center;line-height:18px;font-size:12px;border-right:1px solid #d2d2d2;float:left;cursor:pointer;}
+.sc-ul li .num .n{height:18px;width:54px;text-align:center;line-height:18px;font-size:12px;float:left;}
+.sc-ul li .num .jia{height:18px;width:18px;background:#eee;text-align:center;line-height:18px;font-size:12px;border-left:1px solid #d2d2d2;float:left;cursor:pointer;}
+.sc-ul li .yuan{height:115px;width:130px;text-align:right;line-height:115px;color:#e2231a;float:left;font-size:14px;margin-right:50px;}
+.sc-ul li .dele{height:40px;width:100px;font-size:14px;margin-top:38px;float:left;cursor:pointer;}
+
+
+/* -----  ======  cash  ======  ----- */
+#cash{margin-top:15px;border:1px solid #d9d8d6;background:#f8f8f8;height:120px;}
+.cash-left{height:14px;width:155px;float:left;margin:15px 0 0 15px;font-size:13px;}
+.cash-left span{display:inline-block;height:14px;width:14px;margin-right: 5px;background:url(../images/shoppingcart/buycart.png) -167px -4px;cursor:pointer;}
+.cash-left em{font-size:13px;line-height:14px;margin-left:28px;font-style:normal;cursor:pointer;}
+.cash-left em:hover{color:#e2231a;}
+.cash-right{width:300px;height:120px;margin-right:16px;text-align:right;float:right;}
+.cash-right p{font-size:16px;line-height:30px;margin-top:8px;}
+.cash-right .cash-p3 span{font-size:17px;color:#e2231a;}
+
+/* -----  ======  btn  ======  ----- */
+.btn{height:38px;width:160px;background:#e2231a;border:1px solid #d9d8d6;border-radius:5px;color:#fff;text-align:center;line-height:38px;font-size:18px;margin:15px 0 55px 1038px;cursor:pointer;}
+
+
+/* -----  ======  none  ======  ----- */
+#none{height:254px;background:url(../images/shoppingcart/car.png) no-repeat 330px 85px;text-align:center;line-height:254px;font-size:18px;display:none;}
+#none input{height:28px;width:93px;border:0;border: 1px solid #b5b5b5;border-radius:3px;cursor:pointer;margin-left:10px;}
+
+
+/* -----  ======  ns  ======  ----- */
+#ns{height:83px;background:#f6f6f6;}
