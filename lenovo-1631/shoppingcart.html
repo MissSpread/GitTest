@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/shoppingcart.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/shoppingcart.js"></script>
+    </head>
+    <body>
+    <!--    ========    top    ========    -->
+    	<div id="top">
+			<div class="con">
+				<p class="top_right">
+					<a href="homepage.html">返回首页</a>
+					<a class="port" href="#">登录</a>
+					<a class="enroll" href="#">注册</a>
+				</p>
+			</div>
+		</div>
+		
+
+	<!--      ==========    logo   =========     -->
+		<div id="logo" class="con">
+			<img class="logo-left" src="images/shoppingcart/logo.png" alt="">
+			<img class="logo-right" src="images/shoppingcart/66logo.png" alt="">
+		</div>
+
+
+	<!--      ==========    count   =========     -->
+		<div id="count" class="con">
+			<div class="all"><span class="bg quan"></span>全选</div>
+			<div class="cou2">商品</div>
+			<div class="cou3">规格</div>
+			<div class="cou4">单价</div>
+			<div class="cou5">数量</div>
+			<div class="cou6">金额</div>
+			<div class="cou7">操作</div>
+		</div>
+
+	
+	<!--      ==========    buy   =========     -->
+		<div id="buy" class="con">
+			<ul class="sc-ul"></ul>
+		</div>
+	
+	
+	<!--      ==========    cash   =========     -->
+		<div id="cash" class="con">
+			<div class="cash-left">
+				<span class="bg q"></span>全选
+				<em>删除选中商品</em>
+			</div>
+			<div class="cash-right">
+				<p class="cash-p1">商品总价 : <span>0.00元</span></p>
+				<p class="cash-p2">优惠节省 : <span>0.00元</span></p>
+				<p class="cash-p3">合计 : <span>0.00元</span></p>
+			</div>
+		</div>
+	
+
+	<!--      ==========    btn   =========     -->
+		<div id="btn" class="con">
+			<div class="btn">去结算</div>
+		</div>
+	
+
+
+	<!--      ==========    none   =========     -->
+		<div id="none" class="con">
+			您的购物车内暂无商品,您可以
+			<a href="tab.html"><input type="button" value="选购商品"></a>
+		</div>
+
+
+	<!--      ==========    ns   =========     -->
+		<div id="ns">
+			<div class="con">
+				<img src="images/6bottom.jpg" alt="">
+			</div>
+		</div>
+
+
+	<!--      ==========    link   =========     -->
+		<div id="link" class="con">
+			<dl class="dl1"></dl>
+			<dl class="dl2"></dl>
+			<dl class="dl3"></dl>
+			<dl class="dl4"></dl>
+			<dl class="dl5"></dl>
+			<dl class="dl6"></dl>
+		</div>
+
+<!--bottom-->
+		<div id="bottom">
+			<div class="con">
+				<div class="box">
+					<div class="box-top">
+						<a href="#">关于联想</a>
+						<span>|</span>
+						<a href="#">联系我们</a>
+						<span>|</span>
+						<a href="#">工作机会</a>
+						<span>|</span>
+						<a href="#">新闻中心</a>
+						<span>|</span>
+						<a href="#">聚享汇会员分享</a>
+						<span>|</span>
+						<a href="#">联想社区</a>
+						<span>|</span>
+						<a href="#">NBD</a>
+						<span>|</span>
+						<a href="#">联想超融合</a>
+						<span>|</span>
+						<a href="#">联想官网热搜榜</a>
+						<span>|</span>
+						<a href="#">分类大全</a>
+						<span>|</span>
+						<a href="#">联想产品大全</a>
+						<span>|</span>
+						<a href="#">智慧医疗</a>
+					</div>
+					<div class="box-top">
+						<a href="#">版权所有：1998-2016 联想集团</a>
+						<span>|</span>
+						<a href="#">法律公告</a>
+						<span>|</span>
+						<a href="#">隐私保护</a>
+						<span>|</span>
+						<a href="#">京ICP备11035381</a>
+						<span>|</span>
+						<a href="#">京公网安备110108007970号</a>
+						<span>|</span>
+						<a href="#">营业执照：110000410127232</a>
+						<span>|</span>
+						<a href="#"><em class="em1"></em>销售网点</a>
+						<span>|</span>
+						<a href="#"><em class="em2"></em>服务网点</a>
+					</div>
+					<div class="china">
+						<div class="china-con">
+						<ul>
+                            <li><a href="#">Algeria</a></li>
+                            <li><a href="#">Angola</a></li>
+                            <li><a href="#">Argentina</a></li>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Austria</a></li>
+                            <li><a href="#">Bahrain</a> </li>
+                            <li><a href="#">Bangladesh</a> </li>
+                            <li><a href="#">Belgium</a> </li>
+                            <li><a href="#">Benin</a> </li>
+                            <li><a href="#">Bolivia</a></li>
+                            <li><a href="#">Botswana</a> </li>
+                            <li><a href="#">Brazil</a></li>
+                            <li><a href="#">Bulgaria</a>  </li>
+                            <li><a href="#">Burkina</a>  </li>
+                            <li><a href="#">Burundi</a>  </li>
+                            <li><a href="#">Cameroon</a> </li>
+                            <li><a href="#">Canada - English</a> </li>
+                            <li><a href="#">Canada - Fran?ais</a>   </li>
+                            <li><a href="#">Cape Verde</a> </li>
+                            <li><a href="#">Central African Republic</a>   </li>
+                            <li><a href="#">Central America</a>    </li>
+                            <li><a href="#">Chad</a>  </li>
+                            <li><a href="#">Chile</a> </li>
+                            <li><a href="#">China</a>   </li>
+                            <li><a href="#">Colombia</a>      </li>
+                            <li><a href="#">Comoros</a> </li>
+                            <li><a href="#">Congo, Dem. Rep. (Kinshasa)</a></li>
+                            <li><a href="#">Congo, Rep. (Brazzaville)</a></li>
+                            <li><a href="#">Croatia</a></li>
+                            <li><a href="#">Czech Republic</a> </li>
+                            <li><a href="#">C?te d'Ivoire (Ivory Coast)</a></li>
+                            <li><a href="#">Denmark</a></li>
+                            <li><a href="#">Deutschland</a></li>
+                            <li><a href="#">Djibouti</a></li>
+                            <li><a href="#">Ecuador</a></li>
+                            <li><a href="#">Egypt</a></li>
+                            <li><a href="#">Equatorial Guinea</a></li>
+                            <li><a href="#">Eritrea</a></li>
+                            <li><a href="#">Estonia</a></li>
+                            <li><a href="#">Ethiopia</a></li>
+                            <li><a href="#">Finland</a></li>
+                            <li><a href="#">France</a></li>
+                            <li><a href="#">Gabon</a></li>
+                            <li><a href="#">Gambia, The</a></li>
+                            <li><a href="#">Ghana</a></li>
+                            <li><a href="#">Greece</a></li>
+                            <li><a href="#">Guinea</a></li>
+                            <li><a href="#">Guinea-Bissau</a></li>
+                            <li><a href="#">Hong Kong S.A.R of China - English</a></li>
+                            <li><a href="#">Hong Kong S.A.R of China - 繁體中文</a></li>
+                            <li><a href="#">Hungary</a></li>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Indonesia</a></li>
+                            <li><a href="#">Ireland</a></li>
+                            <li><a href="#">Israel</a></li>
+                            <li><a href="#">Italy</a></li>
+                            <li><a href="#">Japan</a></li>
+                            <li><a href="#">Jordan</a></li>
+                            <li><a href="#">Kazakhstan</a></li>
+                            <li><a href="#">Kenya</a></li>
+                            <li><a href="#">Korea</a></li>
+                            <li><a href="#">Kuwait</a></li>
+                            <li><a href="#">Lebanon</a></li>
+                            <li><a href="#">Lesotho</a></li>
+                            <li><a href="#">Liberia</a></li>
+                            <li><a href="#">Libya</a></li>
+                            <li><a href="#">Lithuania</a></li>
+                            <li><a href="#">Madagascar</a></li>
+                            <li><a href="#">Malawi</a></li>
+                            <li><a href="#">Malaysia</a></li>
+                            <li><a href="#">Mali</a></li>
+                            <li><a href="#">Mauritania</a></li>
+                            <li><a href="#">Mauritius</a></li>
+                            <li><a href="#">Mexico</a></li>
+                            <li><a href="#">Morocco</a></li>
+                            <li><a href="#">Mozambique</a></li>
+                            <li><a href="#">Myanmar</a></li>
+                            <li><a href="#">Namibia</a></li>
+                            <li><a href="#">Netherlands</a></li>
+                            <li><a href="#">New Zealand</a></li>
+                            <li><a href="#">Niger</a></li>
+                            <li><a href="#">Nigeria</a></li>
+                            <li><a href="#">Norway</a></li>
+                            <li><a href="#">Oman</a></li>
+                            <li><a href="#">Paraguay</a></li>
+                            <li><a href="#">Peru</a></li>
+                            <li><a href="#">Philippines</a></li>
+                            <li><a href="#">Poland</a></li>
+                            <li><a href="#">Qatar</a></li>
+                            <li><a href="#">Romania</a></li>
+                            <li><a href="#">Russian Federation</a></li>
+                            <li><a href="#">Rwanda</a></li>
+                            <li><a href="#">Réunion</a></li>
+                            <li><a href="#">Saint Helena</a></li>
+                            <li><a href="#">Saudi Arabia</a></li>
+                            <li><a href="#">Senegal</a></li>
+                            <li><a href="#">Serbia</a></li>
+                            <li><a href="#">Seychelles</a></li>
+                            <li><a href="#">Sierra Leone</a></li>
+                            <li><a href="#">Singapore</a></li>
+                            <li><a href="#">Slovakia</a></li>
+                            <li><a href="#">Slovenia</a></li>
+                            <li><a href="#">Somalia</a></li>
+                            <li><a href="#">South Africa</a></li>
+                            <li><a href="#">South Sudan</a></li>
+                            <li><a href="#">Spain</a></li>
+                            <li><a href="#">Sri Lanka</a></li>
+                            <li><a href="#">Sudan</a></li>
+                            <li><a href="#">Swaziland</a></li>
+                            <li><a href="#">Sweden</a></li>
+                            <li><a href="#">Switzerland - Deutsch</a></li>
+                            <li><a href="#">Switzerland - Fran?ais</a></li>
+                            <li><a href="#">S?o Tomé and Príncipe</a></li>
+                            <li><a href="#">Taiwan</a></li>
+                            <li><a href="#">Tanzania</a></li>
+                            <li><a href="#">Thailand</a></li>
+                            <li><a href="#">Togo</a></li>
+                            <li><a href="#">Tunisia</a></li>
+                            <li><a href="#">Turkey</a></li>
+                            <li><a href="#">Uganda</a></li>
+                            <li><a href="#">Ukraine</a></li>
+                            <li><a href="#">United Arab Emirates</a></li>
+                            <li><a href="#">United Kingdom</a></li>
+                            <li><a href="#">United States</a></li>
+                            <li><a href="#">Uruguay</a></li>
+                            <li><a href="#">Venezuela</a></li>
+                            <li><a href="#">Vietnam</a></li>
+                            <li><a href="#">Western Sahara</a> </li>
+                            <li><a href="#">Zambia</a></li>
+                            <li><a href="#">Zimbabwe</a></li></ul>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+	<!-- 登入 注册 模态窗口 -->
+		<div id="null">
+			<div class="ent">
+				<div class="ent-top">
+					<p class="top1">普通登录</p>
+					<p class="top2">快捷登录</p>
+					<div class="close"></div>
+				</div>
+				<div class="plain">
+					<div class="txt">
+						<div></div>
+						<input type="text" placeholder="请输入手机号或邮箱" />
+					</div>
+					<div class="pas">
+						<div></div>
+						<input class="pass" type="password" placeholder="密码" />
+					</div>
+					<p class="por"></p>
+					<div class="vol">
+						<input type="checkbox" checked="checked">
+						<p>自动登录</p>
+					</div>
+					<div class="entry">登&nbsp;&nbsp;录</div>
+					<div class="get">
+						<a href="#">立即注册</a>
+						<a class="forget" href="#">忘记密码</a>
+					</div>
+					<p class="icop">使用合作网站账号登录:</p>
+					<div class="ico">
+						<a class="a1" href="#"></a>
+						<a class="a2" href="#"></a>
+						<a class="a3" href="#"></a>
+						<a class="a4" href="#"></a>
+					</div>
+					<ul class="option">
+						<li class="op1"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			
+				<div class="short">
+					<div class="plain">
+						<div class="txt2">
+							<div></div>
+							<input type="text" placeholder="请输入手机号" />
+						</div>
+						<div class="pas">
+							<div></div>
+							<input class="psd" type="password" placeholder="动态密码" />
+							<div class="pas_right">获取动态密码</div>
+						</div>
+						<p class="por2"></p>
+						<div class="vol">
+							<input type="checkbox" checked="checked">
+							<p>自动登录</p>
+						</div>
+						<div class="entry2">登&nbsp;&nbsp;录</div>
+						<div class="get">
+							<a href="#">立即注册</a>
+							<a class="forget" href="#">忘记密码</a>
+						</div>
+						<p class="icop">使用合作网站账号登录:</p>
+						<div class="ico">
+							<a class="a1" href="#"></a>
+							<a class="a2" href="#"></a>
+							<a class="a3" href="#"></a>
+							<a class="a4" href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--  注册窗口  -->
+		<div class="null">
+			<div class="enr">
+				<div class="enr_top">欢迎注册联想会员
+					<div class="xx"></div>
+				</div>
+				<div class="num">
+					<div>账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</div>
+					<input type="text" placeholder="请输入手机号或邮箱">	
+					<p></p>
+				</div>
+				<div class="pass">
+					<div>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</div>
+					<input type="password" placeholder="密码长度8~20位,数字、字母、字符至少包含两种">
+					<p></p>
+				</div>
+				<div class="aff">
+					<div>确 认 密 码</div>
+					<input type="password">
+					<p></p>
+				</div>
+				<div class="ident">
+					<div class="id">验 &nbsp;证&nbsp; 码</div>
+					<input type="text">
+					<div class="iden">
+						<img index="0" src="images/id0.png" alt="">
+						<a href="#">换一张</a>
+					</div>
+					<div class="timer">获取验证码</div>
+					<p></p>
+				</div>
+				<div class="agree">
+					<input type="checkbox" checked="checked">
+					同意联想的
+					<a href="#">使用条款</a> 和
+					<a href="#">隐私权政策</a>
+				</div>
+				<div class="btn">立即注册</div>
+			</div>
+		</div>
+
+		
+		<!--  登录后 的退出登入窗口   -->
+		<div class="quit">
+			<div class="namebg"></div>
+			<p class="welcome">欢迎</p>
+			<p class="uname"></p>
+			<p class="qt">退出</p>
+		</div>
+    </body>
+</html>
